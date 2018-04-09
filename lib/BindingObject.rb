@@ -20,7 +20,7 @@ c.drive
 class Car
   def drive
     p "self is : #{self}"
-    p "receiver is : #{binding.receiver}"
+   # p "receiver is : #{binding.receiver}"
     start
   end
 
